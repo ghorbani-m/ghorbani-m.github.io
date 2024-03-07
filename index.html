@@ -24,11 +24,9 @@ brandembassy('showTermsOfUse', 'Privacy Notice', 'modal' , 'This chat will be re
                //sets default width to 400px
     document.onreadystatechange = (event) => {
             if (document.readyState === 'complete') {
-                            
-              brandembassy('setWindowWidth', '25%');
-              brandembassy('setWindowHeight', '90%');
-
-                  
+        	brandembassy('setWindowWidth', '100%');
+		brandembassy('setWindowHeight', '100%');
+		brandembassy('openChatWindow');
  }
 
     };
